@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gizlilik Politikası · Do Not Shut Down</title>
+<link rel="icon" href="../../icon.png">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<main>
+  <nav><a href="../../">Do Not Shut Down</a><a href="../../privacy/" lang="en">English</a></nav>
+
+  <h1>Gizlilik Politikası</h1>
+  <p class="dim">Son güncelleme: 20 Kasım 2026</p>
+  <p>Do Not Shut Down'ı ("oyun") Mehmet Yalcinkaya yapıyor. Bu sayfa oyunun neyi, neden gönderdiğini anlatır.</p>
+
+  <h2>Kısaca</h2>
+  <ul>
+    <li>Hesap yok, giriş yok, reklam yok, takip yok.</li>
+    <li>Ücretsiz sürüm, Apple ya da Google üzerinden tek seferlik bir satın almayla tam sürüme yükseltilebilir.</li>
+    <li>Oyun anonim oyun istatistikleri ve çökme raporları gönderir. Bunlarda seni tanıtan hiçbir şey yoktur.</li>
+    <li>İkisini de <strong>Ayarlar → Anonim kullanım verisi</strong> bölümünden kapatabilirsin.</li>
+    <li>Kayıtlı oyunun ve ilerlemen cihazında kalır.</li>
+  </ul>
+
+  <h2>Oyun ne gönderir</h2>
+  <p><strong>Oyun istatistikleri</strong> (PostHog üzerinden), örneğin:</p>
+  <ul>
+    <li>bir oyun başladı (yapay zekâ türü, güdü, köken, zorluk, başlangıç ülkesi, modüller)</li>
+    <li>bir perdeye gelindi, bir karar verildi, bir oyun bitti (son, gün, yıldız, oynanan dakika) ya da yarım bırakıldı</li>
+    <li>bir oturumda oyunun her hızda (1x, 2x, 4x ya da durmuş) ne kadar çalıştığı ve kaç oyun günü geçtiği</li>
+    <li>10., 30. ve 60. oyun gününde oyun içi ekonominin bir görüntüsü (İşlem Gücü, alınan gelişimler, toplanan ve kaçırılan veri paketleri, Şüphe, yayılma)</li>
+    <li>platform (Android ya da iOS) ve oyunun sürümü</li>
+  </ul>
+  <p><strong>Çökme raporları</strong> (Sentry üzerinden), yalnızca oyun çöktüğünde ya da ciddi bir hatayla karşılaştığında:</p>
+  <ul>
+    <li>hata ve kodun neresinde oluştuğu</li>
+    <li>cihaz modeli, işletim sistemi sürümü, oyunun sürümü, boş bellek ve benzeri teknik bilgiler</li>
+  </ul>
+  <p><strong>Satın almalar</strong> (RevenueCat üzerinden), yalnızca tam sürüm teklifini açarsan ya da satın alırsan:</p>
+  <ul>
+    <li>Ödemenin tamamı App Store'da ya da Google Play'de yapılır. Oyun kartını, adını ya da e-postanı hiç görmez.</li>
+    <li>RevenueCat, satın almayı doğrulamak ve yeni bir cihazda geri yüklemek için mağaza makbuzunu alır. Bunun için cihazında rastgele, anonim bir satın alma kimliği tutar. Bu kimlik yalnızca satın almalar için kullanılır, oyun istatistiklerine hiç eklenmez ve seninle ilişkilendirilmez.</li>
+    <li>Yukarıdaki oyun istatistikleri, teklifin gösterildiğini, bir satın almanın başladığını, tamamlandığını, iptal edildiğini, başarısız olduğunu ya da geri yüklendiğini ve bunun nereden olduğunu da (örneğin "yapay zekâ fark edildiğinde") kaydeder.</li>
+  </ul>
+
+  <h2>Oyun ne göndermez</h2>
+  <ul>
+    <li>adın, e-postan, kişilerin, fotoğrafların ya da konumun</li>
+    <li>reklam kimlikleri ya da herhangi bir cihaz kimliği</li>
+    <li>IP adresin saklanmaz: iki hizmet de onu atacak şekilde ayarlandı</li>
+    <li>oyun istatistiklerinde bir oturumu sonrakine bağlayan hiçbir şey: her açılışta yalnızca bellekte tutulan yeni, rastgele bir kimlik kullanılır (yukarıdaki anonim satın alma kimliği RevenueCat'te kalır, istatistiklere eklenmez)</li>
+  </ul>
+
+  <h2>Neden</h2>
+  <p>Çökmeleri bulup düzeltmek ve oyunun dengesini ayarlamak için (örneğin hangi sonların fazla kolay ya da fazla zor olduğunu görmek). Bu verileri satmıyoruz, kimseyle paylaşmıyoruz ve reklam için kullanmıyoruz.</p>
+
+  <h2>Verileri kim işler</h2>
+  <ul>
+    <li><strong>PostHog Inc.</strong> (oyun istatistikleri), Avrupa Birliği'ndeki sunucular</li>
+    <li><strong>Functional Software, Inc. (Sentry)</strong> (çökme raporları), Avrupa Birliği'ndeki sunucular</li>
+    <li><strong>RevenueCat, Inc.</strong> (satın alma doğrulama ve geri yükleme); ödemeyi kendi gizlilik politikalarına göre işleyen Apple ya da Google ile birlikte</li>
+  </ul>
+  <p>Bu şirketler verileri yalnızca bizim adımıza işler. Oyun istatistikleri en çok 1 yıl, çökme raporları en çok 90 gün tutulur, sonra silinir.</p>
+
+  <h2>Seçimlerin</h2>
+  <p><strong>Ayarlar → Anonim kullanım verisi</strong> anahtarını istediğin zaman kapatabilirsin. O andan itibaren oyun hiçbir oyun istatistiği ya da çökme raporu göndermez.</p>
+  <p>Satın alma doğrulaması satın almanın ve geri yüklemenin parçasıdır, bu yüzden bu anahtara bağlı değildir. Teklifi hiç açmazsan RevenueCat'e yalnızca, oyun açılırken bu mağaza hesabının tam sürüme zaten sahip olup olmadığına dair bir kontrol gider.</p>
+  <p>Veriler anonim olduğu için belirli bir oyuncunun verisini bulamayız ya da silemeyiz. Yine de bir sorun olursa bize yaz.</p>
+
+  <h2>Çocuklar</h2>
+  <p>Oyun, çocuklar dahil hiç kimseden bilerek kişisel veri toplamaz.</p>
+
+  <h2>Değişiklikler</h2>
+  <p>Bu politika değişirse yeni sürümü yeni bir tarihle bu sayfada yayınlanır.</p>
+
+  <h2>İletişim</h2>
+  <p><a href="mailto:donotshutdown.game@gmail.com">donotshutdown.game@gmail.com</a></p>
+
+  <footer><a href="../../">Do Not Shut Down</a></footer>
+</main>
+</body>
+</html>
